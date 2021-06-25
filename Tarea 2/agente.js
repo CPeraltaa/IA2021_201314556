@@ -50,7 +50,6 @@ function registrar_estado(pos,E1, E2){
 
 //permite convertir a dirty de forma aleatoria
 function ensuciar_rand(states){
-	console.log('ensuciar 1. ' + states[1] + ' 2. ' + states[2])
 	var opciones = ['CLEAN', 'DIRTY']
 
     if (states[1] == 'CLEAN'){		
